@@ -1,0 +1,95 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background: #f6f9ff;
+  color: #444444;
+}
+
+.header {
+  font-size: 26px;
+  font-weight: 700;
+  color: #012970 !important;
+}
+
+.card-custom-height {
+  height: 510px;
+}
+
+.card {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.logo img {
+  max-height: 26px;
+  margin-right: 6px;
+}
+
+.nav-link {
+  color: #012970 !important;
+
+}
+
+.custom {
+  margin-left: 2px;
+}
+
+.custom:hover {
+  border: 1px solid #012970;
+  border-radius: 2px;
+}
+
+.company {
+  border-right: 1px solid;
+  padding-right: 5px;
+}
+
+.pagetitle {
+  margin-bottom: 10px;
+}
+
+.pagetitle h1 {
+  font-size: 24px;
+  margin-bottom: 0;
+  font-weight: 600;
+  color: #012970;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  color: #899bbd;
+  font-weight: 600;
+}
+
+.breadcrumb .active {
+  color: #51678f;
+  font-weight: 600;
+}
+
+.info-text {
+  color: #012970;
+}
